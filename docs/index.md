@@ -1,5 +1,48 @@
 # Sähköasennusten mitoitus
 
+## Perus käsitteet
+
+| Symbol | Description         |
+| ------ | ------------------- |
+| U      | Jännite (V)         |
+| I      | Virta (A)           |
+| P      | Teho (W)            |
+| S      | Näennäisteho (VA)   |
+| Q      | Reaktiiviteho (VAR) |
+| cos φ  | Tehokerroin         |
+| f      | Taajuus (Hz)        |
+| t      | Aika (s)            |
+| R      | Vastus (Ω)          |
+| L      | Induktanssi (H)     |
+| C      | Kapasitanssi (F)    |
+| X      | Reaktanssi (Ω)      |
+| Z      | Impedanssi (Ω)      |
+| Y      | Admittanssi (S)     |
+
+## Pääsulakkeen mitoitus
+
+## Jakokeskuksen mitoitus
+
+## Johdotuksen mitoitus
+
+## Valaisimien mitoitus
+
+## Pistorasioiden mitoitus
+
+## Lämmityksen mitoitus
+
+## Ilmanvaihdon mitoitus
+
+## Lämpöpumppujen mitoitus
+
+## Aurinkopaneelien mitoitus
+
+## Lämpökaapeleiden mitoitus
+
+## Kaapelin mitoitus
+
+## Sulake- ja katkaisijasuojauksen mitoitus
+
 ## Liittymistehon mitoitus
 
 Omakotitalot ja pienet rivitalot, joissa ei ole (ylempi) tai on suora sähkölämmitys sekä sähkökiuas, lausekkeessa \(A\_{\text{lämm}}\) on lämmitykseen mitetty pinta-ala:

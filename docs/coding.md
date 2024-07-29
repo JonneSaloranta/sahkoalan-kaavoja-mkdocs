@@ -1,25 +1,66 @@
-# Sähköasennusten mitoitus
+# Testi
 
-## Liittymistehon mitoitus
+## Yleistä
 
-Omakotitalot ja pienet rivitalot, joissa ei ole (ylempi) tai on suora sähkölämmitys sekä sähkökiuas, lausekkeessa \(A\_{\text{lämm}}\) on lämmitykseen mitetty pinta-ala:
+<figure markdown="span">
+  ![Image title](https://dummyimage.com/600x400/){ width="300" loading=lazy}
+  <figcaption>Image caption</figcaption>
+</figure>
 
-$$
-P{\text{max}} = P{\text{va}} + 26 \cdot \frac{A{\text{lämm}}}{1000}, \quad P{\text{va}} = 7.5 \, \text{kW}
-$$
+-   [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+-   [ ] Vestibulum convallis sit amet nisi a tincidunt
+    -   [x] In hac habitasse platea dictumst
+    -   [x] In scelerisque nibh non dolor mollis congue sed et metus
+    -   [ ] Praesent sed risus massa
+-   [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
-Nykyaikaisissa passiivititaloissa riittää 64 W/m² sijoitettu pinta-ala, joissa ei ole tai on suora sähkölämmitys sekä sähkökiuas, lausekkeessa \(A\_{\text{lämm}}\) on lämmitykseen mitetty pinta-ala:
+The HTML specification is maintained by the W3C.
 
-$$
-P{\text{max}} = P{\text{va}} + 26 \cdot \frac{A{\text{lämm}}}{1000}, \quad P{\text{va}} = 30 \, \text{kW}
-$$
+*[HTML]: Hyper Text Markup Language*
+*[W3C]: World Wide Web Consortium*
 
-$$
-P{\text{max}} = P{\text{va}} + 64 \cdot \frac{A{\text{lämm}}}{1000}, \quad P{\text{va}} = 30 \, \text{kW}
-$$
+=== "C"
 
-Kerros- ja rivitalot ilman kiukaita ja huoneistokohtaisesti lämmityksestä vastaavat, lausekkeessa \(A\_{\text{kr}}\) on kerrospinta-ala:
+    ``` c
+    #include <stdio.h>
 
-$$
-P{\text{max}} = P{\text{va}} + 26 \cdot \frac{A*{\text{kr}}}{1000}, \quad P{\text{va}} = \text{määritelty arvo}
-$$
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
+```mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+!!! danger
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+!!! note annotate "Phasellus posuere in sem ut cursus (1)"
+
+    Lorem ipsum dolor sit amet, (2) consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
+
+1.  :man_raising_hand: I'm an annotation!
+2.  :woman_raising_hand: I'm an annotation as well!
