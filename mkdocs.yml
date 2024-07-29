@@ -8,6 +8,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
     - content.tabs.annotate
     - content.tabs.copy
@@ -58,6 +59,7 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - search
 
 extra_javascript:
   - javascripts/mathjax.js
