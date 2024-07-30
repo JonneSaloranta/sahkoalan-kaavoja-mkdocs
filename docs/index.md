@@ -29,6 +29,40 @@
 
 ## Pistorasioiden mitoitus
 
+## Oikosulkuvirtojen laskeminen
+
+![Esimerkki](images/example1.jpg)
+
+Pääkeskus
+
+$$
+I{\text{k}} = 180A
+$$
+
+$$
+Z{\text{v}} = \frac{0,95 \cdot 400V}{\sqrt{3} \cdot 180A} = 1,22\Omega
+$$
+
+Ryhmäkeskus 1
+
+$$
+Z{\text{v1}} = Z{\text{v}} + 2 \cdot 3,66 \frac{\Omega}{km} \cdot 0,030km = 1,44\Omega
+$$
+
+$$
+I{\text{k1}} = \frac{0,95 \cdot 400V}{\sqrt{3} \cdot 1,44\Omega} = 152A
+$$
+
+Ryhmäkeskus 2
+
+$$
+Z{\text{v2}} = Z{\text{v}} + 2 \cdot 3,66 \frac{\Omega}{km} \cdot 0,035km = 1,48\Omega
+$$
+
+$$
+I{\text{k1}} = \frac{0,95 \cdot 400V}{\sqrt{3} \cdot 1,48\Omega} = 148A
+$$
+
 ## Lämmityksen mitoitus
 
 ## Ilmanvaihdon mitoitus
